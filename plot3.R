@@ -34,5 +34,5 @@ lines(power_feb$date_time , power_feb$sub_metering_3, col = "blue")
 legend("topright" , c("Sub_metering_1" , "Sub_metering_2", "Sub_metering_3"), lty=c(1,1,1), lwd=c(2,2,2), col = c("black", "red", "blue"))
 
 ## copy Plot 3 to PNG file
-dev.copy(png, file = "plot3.png") 
+dev.copy(png, file = "plot3.png", height = 480, width = 480, units = "px") 
 dev.off()

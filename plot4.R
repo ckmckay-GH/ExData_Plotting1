@@ -48,5 +48,5 @@ plot(power_feb$date_time , power_feb$global_reactive_power_kw, type = "n" , xlab
 lines(power_feb$date_time , power_feb$global_reactive_power_kw)
 
 ## copy Plot 4 to PNG file
-dev.copy(png, file = "plot4.png") 
+dev.copy(png, file = "plot4.png", height = 480, width = 480, units = "px") 
 dev.off()

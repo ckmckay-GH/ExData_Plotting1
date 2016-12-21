@@ -31,5 +31,5 @@ plot(power_feb$date_time , power_feb$global_active_power_kw, type = "n" , xlab =
 lines(power_feb$date_time , power_feb$global_active_power_kw, xlab = "", ylab = "Global Active Power (kilowatts)")
 
 ## copy Plot 2 to PNG file
-dev.copy(png, file = "plot2.png") 
+dev.copy(png, file = "plot2.png", height = 480, width = 480, units = "px") 
 dev.off()

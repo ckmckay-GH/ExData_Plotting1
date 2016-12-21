@@ -21,5 +21,5 @@ par(mfrow = c(1,1))
 hist(power_feb$global_active_power_kw, col = "red" , ylab = "Frequency", xlab = "Global Active Power (kilowatts)", main = "Global Active Power")
 
 ## copy Plot 1 to PNG file
-dev.copy(png, file = "plot1.png") 
+dev.copy(png, file = "plot1.png", , height = 480, width = 480, units = "px") 
 dev.off()
